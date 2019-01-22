@@ -1,0 +1,76 @@
+html{
+    background-color: mediumAquamarine;
+  }
+    
+  h1{
+    font-family: Arial black;
+    text-align: center;
+  }
+  #par{
+    color: darkgreen;
+    font-size: 19px;
+  }
+  .flash{
+    animation-name: flash;
+      animation-duration: 0.5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-play-state: running;
+  }
+  @keyframes flash {
+      from {color: greenyellow;}
+      to {color: darkcyan;}
+  }
+  
+  a{
+    color:aqua;
+    font-size: 20px;
+    border: 1px solid;
+    background-color: mediumseagreen;
+    text-decoration: none;
+    
+  }
+  a:hover{
+    color:green;
+    
+  }
+  h2{
+    color: darkcyan;
+  }
+  li{
+    color: seagreen;
+    font-family: calibri;
+    font-size: 20px;
+  }
+  #vid{
+    float: right;
+  }
+  
+  #hdeux{
+    color:aqua;
+    font-family: calibri;
+    font-size: 30px;
+   text-align: right;
+   text-shadow: 2px 2px #008080;
+   
+  }
+  .mamie{
+    color: snow;
+    font-size: 20px;
+    font-family: calibri;
+  }
+  .link{
+    color:teal;
+    font-size: 20px;
+    border: 5px solid #00CED1;
+    background-color: palegreen;
+    text-decoration: none;
+  }
+  .footer{
+    width:300%;
+    border-color: black;
+    background-color: teal;
+    padding: 50px;
+    justify-content: space-between;
+  }

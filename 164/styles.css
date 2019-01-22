@@ -1,0 +1,102 @@
+html{
+    background-image: url("https://images.pexels.com/photos/462149/pexels-photo-462149.jpeg?auto=compress&cs=tinysrgb&h=350");
+    
+  }
+  
+  
+  h1{
+    color: cyan;
+    font-family: calibri;
+    font-size: 35px;
+    text-align: center;
+    border-color: darkturquoise;
+    text-shadow: 4px 4px #008080;
+    
+    
+    
+  }
+    h2{
+    color: mediumturquoise;
+     text-align: center;
+     font-size: 30px;
+     font-style: italic;
+     margin: 1px;
+  }
+  .mix{
+    animation-name: flash;
+      animation-duration: 0.5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-play-state: running;
+  }
+  @keyframes flash {
+      from {color: oldlace;}
+      to {color: darkgreen;}
+  }
+  p{
+    color: SeaGreen;
+    font-family: times new roman;
+    font-size: 20;
+    background-color: Azure;
+  
+  }
+  h3{
+    color:oldlace;
+  }
+  .opening{
+    padding: 40px;
+    width: 400px;
+    border-bottom: 3px solid black;
+   
+  }
+  
+  .image{
+    text-align: center;
+  }
+  a:hover{
+    color: lemonchiffon;
+  }
+  a:visited{
+    color: lightyellow;
+  }
+  .footer{
+    width:300%;
+    border-color: black;
+    background-color: mediumAquamarine;
+    padding: 50px;
+    justify-content: space-between;
+    display: flex;
+  }
+  a{
+    color: aqua;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px 12px aqua;
+    text-decoration: none;
+  }
+  nav>ul>li{display:inline-block;
+    margin:20px;
+    text-decoration: none;
+    
+  }
+  nav>ul{
+    text-align: right;
+    font-family: calibri;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  nav>ul>li>a:hover{
+    background-color:darkcyan;
+    padding: 5px;
+    border:1px solid;
+    box-shadow: 5px 5px 10px 12px aqua;
+    text-decoration: none;
+    
+  }
+  li{
+    color: seashell;
+    font-size: 20px;
+  }
+  
+  
